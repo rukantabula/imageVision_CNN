@@ -1,0 +1,19 @@
+
+In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual imagery.
+CNNs are largely applied in the domain of computer vision and has been highly successful in achieving state of the art performance on various test cases.
+
+CNNs are regularized versions of multilayer perceptrons. Multilayer perceptrons usually refer to fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer. 
+The "fully-connectedness" of these networks make them prone to overfitting data. Typical ways of regularization includes adding some form of magnitude measurement of weights to the loss function.
+ However, CNNs take a different approach towards regularization: they take advantage of the hierarchical pattern in data and assemble more complex patterns using smaller and simpler patterns.
+ Therefore, on the scale of connectedness and complexity, CNNs are on the lower extreme.
+
+They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their shared-weights architecture and translation invariance characteristics.[1][2]
+
+Convolutional networks were inspired by biological processes[3][4][5][6] in that the connectivity pattern between neurons resembles the organization of the animal visual cortex.
+ Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field. 
+ The receptive fields of different neurons partially overlap such that they cover the entire visual field.
+
+CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered.
+ This independence from prior knowledge and human effort in feature design is a major advantage.
+
+ https://towardsdatascience.com/build-your-own-convolution-neural-network-in-5-mins-4217c2cf964f
